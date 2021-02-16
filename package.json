@@ -1,0 +1,29 @@
+{
+  "name": "webnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.15",
+    "mongoose-slug-generator": "^1.0.4",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DuongSon",
+  "license": "ISC"
+}
