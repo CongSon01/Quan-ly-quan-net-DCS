@@ -14,7 +14,7 @@ app.use(morgan('combined'));
 app.set("view engine","ejs")
 app.use(session({ secret: 'ilovescotchscotchyscotchscotch' }));
 app.use(passport.initialize());
-    app.use(passport.session()); 
+app.use(passport.session()); 
 
 // connect to DB
 db.connect();
